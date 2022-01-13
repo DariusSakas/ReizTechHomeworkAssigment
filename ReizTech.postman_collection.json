@@ -1,0 +1,81 @@
+{
+	"info": {
+		"_postman_id": "062474ce-b2e7-4789-9bf4-aef964020317",
+		"name": "ReizTech",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GetAllProducts",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SelectProductByID",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/selectProduct/5",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"selectProduct",
+						"5"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PayForSelectedProduct",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/pay?amount=1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"pay"
+					],
+					"query": [
+						{
+							"key": "amount",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ReturnSelectedProduct",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/returnProduct",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"returnProduct"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

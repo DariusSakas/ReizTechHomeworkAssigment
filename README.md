@@ -20,6 +20,8 @@
 * PayForSelectedProduct add the amount you will to pay. Please, use coins of 0.1 and 0.5 or bills of 1 and 2.
 * If you dicide not to buy something, hit ReturnSelectedProduct and don't come back. Thanks!
 
-
+## Test
+* Also implemented few tests. You will find down there in test package
+ ![file](https://i.ibb.co/WxHzTx2/Screenshot-1636885194.png)
 
 
